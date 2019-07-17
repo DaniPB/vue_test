@@ -1,17 +1,16 @@
 <template>
   <div id="app">
-    <h1>hh</h1>
-    <LastAccumulators></LastAccumulators>
+    <SimpleInput></SimpleInput>
   </div>
 </template>
 
 <script>
-import LastAccumulators from './components/LastAccumulators.vue'
+import SimpleInput from './components/SimpleInput.vue'
 
 export default {
   name: 'app',
   components: {
-    LastAccumulators
+    SimpleInput
   }
 }
 </script>
